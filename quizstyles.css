@@ -1,0 +1,22 @@
+body {
+  background-color: coral;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  border-radius: 400px;
+  background-color: beige;
+  margin: auto;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: beige;
+  border-radius: 20px;
+}

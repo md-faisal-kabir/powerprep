@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+.timer {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  margin: auto;
+}
+
+.timer h1 {
+  font-family: consolas;
+  font-size: 150px;
+  margin: auto;
+  font-weight: 100;
+  color: white;
+}
+
+button {
+  width: 80px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(245, 68, 103);
+}
+
+button:active {
+  background-color: rgb(128, 3, 28);
+}
